@@ -1,0 +1,272 @@
+11:57:07.987 [main] INFO ca.uhn.fhir.util.VersionUtil - HAPI FHIR version is: 3.4.0
+11:57:07.992 [main] INFO ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+11:57:08.305 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Coding
+11:57:08.316 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.SubstanceMoiety
+11:57:08.317 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.SimpleQuantity
+11:57:08.319 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ProdCharacteristic
+11:57:08.320 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.CanonicalType
+11:57:08.321 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.RelatedArtifact
+11:57:08.321 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Attachment
+11:57:08.322 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.BooleanType
+11:57:08.322 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.CodeType
+11:57:08.322 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.TriggerDefinition
+11:57:08.323 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ContactPoint
+11:57:08.323 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DecimalType
+11:57:08.323 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.SampledData
+11:57:08.324 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Timing
+11:57:08.324 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.OidType
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DateType
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.IntegerType
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.InstantType
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Duration
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.CodeableConcept
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Narrative
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.IdType
+11:57:08.325 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.SubstanceAmount
+11:57:08.326 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Base64BinaryType
+11:57:08.326 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Dosage
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Extension
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.UnsignedIntType
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Range
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Enumeration
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.StringType
+11:57:08.327 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Annotation
+11:57:08.328 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Age
+11:57:08.328 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ProductShelfLife
+11:57:08.328 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Count
+11:57:08.328 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ElementDefinition
+11:57:08.330 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Contributor
+11:57:08.330 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.utilities.xhtml.XhtmlNode
+11:57:08.330 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Meta
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Reference
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.UsageContext
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Ratio
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Quantity
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ParameterDefinition
+11:57:08.331 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.MarkdownType
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Signature
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.ContactDetail
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.UriType
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.PositiveIntType
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Distance
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Identifier
+11:57:08.332 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.HumanName
+11:57:08.333 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Period
+11:57:08.333 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.MarketingStatus
+11:57:08.333 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Money
+11:57:08.333 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.Address
+11:57:08.333 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DateTimeType
+11:57:08.334 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.UrlType
+11:57:08.334 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning datatype class: org.hl7.fhir.r4.model.DataRequirement
+11:57:08.334 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.TimeType
+11:57:08.335 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionBaseComponent
+11:57:08.336 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DataRequirement$DataRequirementSortComponent
+11:57:08.336 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DataRequirement$DataRequirementCodeFilterComponent
+11:57:08.337 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionConstraintComponent
+11:57:08.338 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.RelatedPerson
+11:57:08.343 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Patient
+11:57:08.344 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DataRequirement$DataRequirementDateFilterComponent
+11:57:08.345 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.TriggerDefinition$TriggerDefinitionConditionComponent
+11:57:08.345 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Timing$TimingRepeatComponent
+11:57:08.346 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionSlicingComponent
+11:57:08.347 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.SubstanceAmount$SubstanceAmountReferenceRangeComponent
+11:57:08.347 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Schedule
+11:57:08.348 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionBindingComponent
+11:57:08.349 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Device
+11:57:08.349 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Organization
+11:57:08.350 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionExampleComponent
+11:57:08.350 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Dosage$DosageDoseAndRateComponent
+11:57:08.351 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$TypeRefComponent
+11:57:08.351 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Group
+11:57:08.352 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Practitioner
+11:57:08.352 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ElementDefinition$ElementDefinitionMappingComponent
+11:57:08.353 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.PractitionerRole
+11:57:08.354 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Group$GroupMemberComponent
+11:57:08.354 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Location
+11:57:08.355 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.HealthcareService
+11:57:08.357 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Patient$PatientLinkComponent
+11:57:08.357 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Organization$OrganizationContactComponent
+11:57:08.357 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Group$GroupCharacteristicComponent
+11:57:08.358 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Practitioner$PractitionerQualificationComponent
+11:57:08.358 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Device$DeviceUdiComponent
+11:57:08.359 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Endpoint
+11:57:08.359 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Patient$PatientCommunicationComponent
+11:57:08.359 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Patient$ContactComponent
+11:57:08.360 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.PractitionerRole$PractitionerRoleNotAvailableComponent
+11:57:08.360 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Location$LocationPositionComponent
+11:57:08.360 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.PractitionerRole$PractitionerRoleAvailableTimeComponent
+11:57:08.361 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.HealthcareService$HealthcareServiceAvailableTimeComponent
+11:57:08.362 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Location$LocationHoursOfOperationComponent
+11:57:08.363 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.HealthcareService$HealthcareServiceNotAvailableComponent
+11:57:08.401 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Done scanning FHIR library, found 98 model entries in 378ms
+11:57:08.403 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Bundle
+11:57:08.404 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Bundle$BundleLinkComponent
+11:57:08.404 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Bundle$BundleEntryComponent
+11:57:08.407 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Done scanning FHIR library, found 3 model entries in 6ms
+11:57:08.487 [main] INFO ca.uhn.fhir.util.XmlUtil - Unable to determine StAX implementation: java.xml/META-INF/MANIFEST.MF not found
+11:57:08.488 [main] DEBUG ca.uhn.fhir.util.XmlUtil - WstxOutputFactory (Woodstox) not found on classpath
+11:57:08.510 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Bundle$BundleEntryRequestComponent
+11:57:08.512 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Done scanning FHIR library, found 1 model entries in 3ms
+11:57:08.515 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Encounter
+11:57:08.516 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$EncounterParticipantComponent
+11:57:08.517 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Appointment
+11:57:08.518 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Account
+11:57:08.519 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$DiagnosisComponent
+11:57:08.519 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$ClassHistoryComponent
+11:57:08.519 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$EncounterHospitalizationComponent
+11:57:08.520 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.EpisodeOfCare
+11:57:08.521 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$StatusHistoryComponent
+11:57:08.521 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Encounter$EncounterLocationComponent
+11:57:08.522 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.ServiceRequest
+11:57:08.523 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Provenance
+11:57:08.524 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.CarePlan
+11:57:08.526 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DocumentReference
+11:57:08.527 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DiagnosticReport
+11:57:08.529 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.ClaimResponse
+11:57:08.530 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Condition
+11:57:08.531 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Specimen
+11:57:08.532 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Account$GuarantorComponent
+11:57:08.533 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Slot
+11:57:08.534 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Observation
+11:57:08.536 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Procedure
+11:57:08.538 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Coverage
+11:57:08.539 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.CareTeam
+11:57:08.540 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Appointment$AppointmentParticipantComponent
+11:57:08.540 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.EpisodeOfCare$DiagnosisComponent
+11:57:08.541 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Account$CoverageComponent
+11:57:08.541 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.EpisodeOfCare$EpisodeOfCareStatusHistoryComponent
+11:57:08.542 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.MedicationRequest
+11:57:08.543 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.MedicationDispense
+11:57:08.545 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Observation$ObservationReferenceRangeComponent
+11:57:08.545 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Observation$ObservationComponentComponent
+11:57:08.546 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$TotalComponent
+11:57:08.546 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Provenance$ProvenanceEntityComponent
+11:57:08.547 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DetectedIssue
+11:57:08.547 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$ErrorComponent
+11:57:08.547 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Sequence
+11:57:08.548 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Medication
+11:57:08.549 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Composition
+11:57:08.550 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Immunization
+11:57:08.552 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DocumentReference$DocumentReferenceAgentComponent
+11:57:08.552 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$PaymentComponent
+11:57:08.558 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Media
+11:57:08.560 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$ItemComponent
+11:57:08.562 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$NoteComponent
+11:57:08.562 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Condition$ConditionEvidenceComponent
+11:57:08.562 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DocumentReference$DocumentReferenceContentComponent
+11:57:08.563 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.QuestionnaireResponse
+11:57:08.565 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Contract
+11:57:08.566 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DocumentReference$DocumentReferenceContextComponent
+11:57:08.569 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Goal
+11:57:08.569 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Substance
+11:57:08.570 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.NutritionOrder
+11:57:08.571 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Coverage$ClassComponent
+11:57:08.572 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$AddedItemComponent
+11:57:08.573 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.CareTeam$CareTeamParticipantComponent
+11:57:08.573 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DiagnosticReport$DiagnosticReportMediaComponent
+11:57:08.574 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DeviceRequest
+11:57:08.575 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.ImagingStudy
+11:57:08.585 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Specimen$SpecimenCollectionComponent
+11:57:08.586 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Specimen$SpecimenProcessingComponent
+11:57:08.587 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.ImmunizationRecommendation
+11:57:08.587 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Claim
+11:57:08.588 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DocumentReference$DocumentReferenceRelatesToComponent
+11:57:08.589 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Provenance$ProvenanceAgentComponent
+11:57:08.590 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Coverage$CoPayComponent
+11:57:08.590 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.CommunicationRequest
+11:57:08.591 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationRequest$MedicationRequestDispenseRequestComponent
+11:57:08.591 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Condition$ConditionStageComponent
+11:57:08.591 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ClaimResponse$InsuranceComponent
+11:57:08.592 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationRequest$MedicationRequestSubstitutionComponent
+11:57:08.592 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.MedicationAdministration
+11:57:08.593 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DeviceMetric
+11:57:08.593 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Procedure$ProcedureFocalDeviceComponent
+11:57:08.593 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Specimen$SpecimenContainerComponent
+11:57:08.594 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.DeviceComponent
+11:57:08.594 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Procedure$ProcedurePerformerComponent
+11:57:08.594 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.MedicationStatement
+11:57:08.595 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.CarePlan$CarePlanActivityComponent
+11:57:08.597 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$SpecialConditionComponent
+11:57:08.598 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Contract$FriendlyLanguageComponent
+11:57:08.598 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationAdministration$MedicationAdministrationPerformerComponent
+11:57:08.598 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.VisionPrescription
+11:57:08.600 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$InsuranceComponent
+11:57:08.600 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ImagingStudy$ImagingStudySeriesComponent
+11:57:08.601 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.NutritionOrder$NutritionOrderEnteralFormulaComponent
+11:57:08.602 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.RiskAssessment
+11:57:08.603 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Medication$MedicationBatchComponent
+11:57:08.603 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Composition$CompositionEventComponent
+11:57:08.604 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$AccidentComponent
+11:57:08.604 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Contract$SignatoryComponent
+11:57:08.604 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Composition$CompositionAttesterComponent
+11:57:08.605 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Sequence$SequenceVariantComponent
+11:57:08.605 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Sequence$SequenceReferenceSeqComponent
+11:57:08.605 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Goal$GoalTargetComponent
+11:57:08.605 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Sequence$SequenceRepositoryComponent
+11:57:08.606 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DeviceMetric$DeviceMetricCalibrationComponent
+11:57:08.606 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Contract$ComputableLanguageComponent
+11:57:08.606 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationDispense$MedicationDispensePerformerComponent
+11:57:08.606 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Substance$SubstanceInstanceComponent
+11:57:08.607 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Immunization$ImmunizationEducationComponent
+11:57:08.607 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DeviceRequest$DeviceRequestParameterComponent
+11:57:08.607 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.AppointmentResponse
+11:57:08.608 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$RelatedClaimComponent
+11:57:08.608 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Sequence$SequenceQualityComponent
+11:57:08.609 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.NutritionOrder$NutritionOrderSupplementComponent
+11:57:08.610 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Sequence$SequenceStructureVariantComponent
+11:57:08.611 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Composition$CompositionRelatesToComponent
+11:57:08.611 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationAdministration$MedicationAdministrationDosageComponent
+11:57:08.611 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DetectedIssue$DetectedIssueMitigationComponent
+11:57:08.612 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$DiagnosisComponent
+11:57:08.612 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$PayeeComponent
+11:57:08.612 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.NutritionOrder$NutritionOrderOralDietComponent
+11:57:08.613 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$CareTeamComponent
+11:57:08.613 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Contract$TermComponent
+11:57:08.616 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.MedicationDispense$MedicationDispenseSubstitutionComponent
+11:57:08.616 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Contract$LegalLanguageComponent
+11:57:08.617 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.CommunicationRequest$CommunicationRequestPayloadComponent
+11:57:08.617 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.QuestionnaireResponse$QuestionnaireResponseItemComponent
+11:57:08.618 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DeviceComponent$DeviceComponentPropertyComponent
+11:57:08.619 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.AllergyIntolerance
+11:57:08.620 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Medication$MedicationIngredientComponent
+11:57:08.621 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Immunization$ImmunizationPerformerComponent
+11:57:08.622 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Composition$SectionComponent
+11:57:08.622 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.DeviceComponent$DeviceComponentProductionSpecificationComponent
+11:57:08.622 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$ProcedureComponent
+11:57:08.623 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Claim$ItemComponent
+11:57:08.625 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ImmunizationRecommendation$ImmunizationRecommendationRecommendationComponent
+11:57:08.626 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.Task
+11:57:08.626 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Substance$SubstanceIngredientComponent
+11:57:08.627 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Task$TaskRestrictionComponent
+11:57:08.627 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Task$ParameterComponent
+11:57:08.627 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.ActivityDefinition
+11:57:08.628 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.VisionPrescription$VisionPrescriptionDispenseComponent
+11:57:08.629 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.Task$TaskOutputComponent
+11:57:08.629 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.RiskAssessment$RiskAssessmentPredictionComponent
+11:57:08.629 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.AllergyIntolerance$AllergyIntoleranceReactionComponent
+11:57:08.630 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ActivityDefinition$ActivityDefinitionDynamicValueComponent
+11:57:08.630 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.ActivityDefinition$ActivityDefinitionParticipantComponent
+11:57:08.630 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource class: org.hl7.fhir.r4.model.SpecimenDefinition
+11:57:08.630 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Scanning resource block class: org.hl7.fhir.r4.model.SpecimenDefinition$SpecimenDefinitionSpecimenToLabComponent
+11:57:08.691 [main] DEBUG ca.uhn.fhir.context.ModelScanner - Done scanning FHIR library, found 141 model entries in 177ms
+11:57:08.695 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.696 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.696 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
+11:57:08.696 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'recordedDate' found while parsing
+11:57:08.696 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.696 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.697 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
+11:57:08.697 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'recordedDate' found while parsing
+11:57:08.697 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.698 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.698 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
+11:57:08.698 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'recordedDate' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'recordedDate' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'coding' found while parsing
+11:57:08.699 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
+11:57:08.700 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'recordedDate' found while parsing
+11:57:08.701 [main] WARN ca.uhn.fhir.parser.LenientErrorHandler - Unknown element 'encounter' found while parsing
